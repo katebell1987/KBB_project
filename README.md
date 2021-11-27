@@ -67,7 +67,7 @@ Melissa Rockies:
 - Albion Meadow	abm	abm	 UT 42
 - Lander	lan	lan	 WY 23
 - Yellow Pine CG	ywp	ywp	 WY 16
-Total:
+- Total:
 
 Melissa East:
 - Mill Creek	mil	mil	 NV 24
@@ -77,7 +77,7 @@ Melissa East:
 - Deeth-Charleston	dcr	dcr	 NV 16
 - Lamoille Canyon	lca	lca	 NV 19
 - Victor	vic	vic	 ID 20
-Total: 130
+- Total: 130
 
 Melissa West: 
 - Gardnerville	gvl	gvl	 NV 16
