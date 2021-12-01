@@ -21,7 +21,8 @@ Anna:
 - Fall Creek	fcr	fcr	 CA 15
 - Leek Springs	lks	lks	 CA 20
 - Yuba Gap	ybg	ybg	 CA 19
-- Total: 100
+- Lodge Inn at Mormon Im. Trail	loi	loi	CA 18
+- Total: 118
 
 Idas:
 - Cotton Wood Divide	cwd	cwd	 WA 25
@@ -38,7 +39,9 @@ Ricei:
 - Rainy Pass	rap	rap	 WA 20
 - Shovel Creek	shc	shc	 CA 18
 - Soda Mt.	smr	smr	 OR 18
-- Total: 98
+- Cave Lake	cav	cav	 CA 24
+- Marble Mts.	mbm	mbm	 CA 12
+- Total: 134
 
 Jackson Hybrids:
 - Big Ice Cave	bic	bic	 WY 18
@@ -84,6 +87,16 @@ Melissa West:
 - Sierravalley	sv	sv	 CA 16
 - Red Earth Way	rew	rew	 NV 16
 - Silver Lake	sla	sla	 NV 18
+
+Idas Alaska:
+- Nolan Road	nol	nol	AK 8
+- Spruce Road and Barley Way	sbw	sbw	AK 20
+- Tok	tok	tok	AK 14
+- Tolovana Creek	tol	tol	AK 8
+- Total: 50
+
+
+
 
 
 
