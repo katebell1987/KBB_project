@@ -3,6 +3,9 @@ Notes and scripts for the Karner blue project.
 
 ### Selection of populations to be included in the project
 Working directory for the fastqs for this project on Texas State Anna computer: /Volumes/storage_a1/Parsed_reads_storage/all_the_fastqs
+
+|Group | Location | Code | Number |
+|------|--------|--------|-------|
 Karner Blue:
 - Allegan	ale	all	 MI	L. samuelis 14
 - Allegan	all	ale	 MI	L. samuelis 13
