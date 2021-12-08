@@ -4,91 +4,84 @@ Notes and scripts for the Karner blue project.
 ### Selection of populations to be included in the project
 Working directory for the fastqs for this project on Texas State Anna computer: /Volumes/storage_a1/Parsed_reads_storage/all_the_fastqs
 
-|Group | Location | Code | Number |
-|------|--------|--------|-------|
-Karner Blue:
-- Allegan	ale	all	 MI	L. samuelis 14
-- Allegan	all	ale	 MI	L. samuelis 13
-- Black River State Forest brw	brw	WI 16
-- Eau Claire State Forest	ecw	ecw	 WI	5
-- Fish Lake	flw	flw	 WI	16
-- Fort McCoy	fmc	fmc	 WI	23
-- Indiana Dunes	inw	inw	 IN 20
-- Saratoga Springs	ssn	SSN	 NY	19
-- Total: 127
+| Group | Location | State | Code | Number |
+|---|---|---|---|---|
+| Karner Blue | Allegan | ale | MI | 14 |
+| Karner Blue | Allegan | all | MI | 13 | 
+| Karner Blue | Black River State Forest | brw | WI | 16 |
+| Karner Blue | Eau Claire State Forest | ecw	| WI | 5 |
+| Karner Blue | Fish Lake |	WI | flw | 16 |
+| Karner Blue | Fort McCoy | WI |	fmc	|	23 |
+| Karner Blue | Indiana Dunes |	IN | inw | 20 |
+| Karner Blue | Saratoga Springs | NY |	ssn	| 19 |
+| Total | | | | 127 |
+| Anna | Marlette Lake | NV | mar	| 19 |
+| Anna | Castle Peak | CA | cpe | 13 |
+| Anna | Donner Pass | CA | dop | 14 |
+| Anna | Fall Creek | CA | fcr | 15 |
+| Anna | Leek Springs | CA | lks | 20 |
+| Anna | Yuba Gap | CA | ybg | 19 |
+| Anna | Lodge Inn at Mormon Im. Trail | CA | loi | 18 |
+| Total | | | | 118 |
+| Idas | Cotton Wood Divide | WA | cwd | 25 |
+| Idas | White Mt. Fire Overlook | WA | whf | 24 |
+| Idas | Bunsen Peak | WY | bnp | 19 |
+| Idas | Garnet Peak | MT | gnp | 16 |
+| Idas | Hayden Valley | WY | hnv | 20 |
+| Idas | Strawberry Mt.s | OR | stb | 17 |
+| Total | | | | 121 |
+| Ricei | Chinook Pass | WA | chp | 24 |
+| Ricei | Big Lake | OR | big | 18 |
+| Ricei | Rainy Pass | WA | rap | 20 |
+| Ricei | Shovel Creek | CA | shc | 18 |
+| Ricei | Soda Mt. | OR | smr	| 18 |
+| Ricei | Cave Lake| CA | cav | 24 |
+| Ricei | Marble Mts. | CA | mbm | 12 |
+| Total | | | | 134 |
+| Jackson Hybrids | Big Ice Cave | WY | bic | 18 |
+| Jackson Hybrids | Hunt Mt. | WY | hum | 27 |
+| Jackson Hybrids | Periodic Spring | WY | psp | 19 |
+| Jackson Hybrids | Pinnacles Butte | WY | pin | 19 |
+| Jackson Hybrids | Sheffield Creek | WY | sfc | 24 |
+| Jackson Hybrids | Riddle Lake | WY | rdl | 23 |
+| Total | | | | 130 | 
+| Whites/Sierra Hybrids | Carson Pass | CA | csp | 25 |
+| Whites/Sierra Hybrids | Lake Emma | CA | lae | 26 |
+| Whites/Sierra Hybrids | Sweetwater Mtns. | CA | swm | 21 |
+| Whites/Sierra Hybrids | Tioga Crest | CA | tic | 32 |
+| Whites/Sierra Hybrids | County Line Hill | CA | clh | 25 |
+| Total | | | | 129 |
+| Warners Hybrids | Buck Mt.| CA | bkm | 35 |
+| Warners Hybrids | Eagle Peak | CA | egp| 35 |
+| Warners Hybrids | Steens Mountain | OR | stm | 9 |
+| Total | | | | 79 |
+| Other Hybrids | Hinkey Summit Site | NV | hss	| 25 |
+| Other Hybrids | Jarbidge Mtns | NV | jrb | 30 | 
+| Total | | | | 55 |
+| Melissa Rockies | Albion Meadow | UT | abm | 42 | 
+| Melissa Rockies | Lander | WY | lan | 23 |
+| Melissa Rockies | Yellow Pine CG | WY | ywp | 16 |
+| Total | | | | 81 |
+| Melissa East | Beulah | ND | beu | 10 |
+| Melissa East | Brandon | SD | bsd | 18 |
+| Melissa East | Cody | WY | cdy | 19 |
+| Melissa East | De Beque | CO | dbq | 16 |
+| Melissa East | Victor | ID | vic | 20 |
+| Melissa East |Abel Creek | NV | abc | 17 |
+| Melissa East | Ophir City | NV | ocy | 16 |
+| Melissa East | Montague | CA | mtu | 30 |
+| Total | | | | 146 | 
+| Melissa West | Red Earth Way | NV | rew | 16 |
+| Melissa West | Baja qui | NV | bqi | 18 |
+| Melissa West | Girl Farm | NV |	gfm | 23 |
+| Melissa West | Verdi Crystal Peak Park | NV | vcp | 30 |
+| Melissa West | Bishop | CA | bhp | 13 | 
 
-Anna:
-- Marlette Lake	mar	mar	 NV 19
-- Castle Peak	cpe	cpe	 CA 13
-- Donner Pass	dop	dop	 CA 14
-- Fall Creek	fcr	fcr	 CA 15
-- Leek Springs	lks	lks	 CA 20
-- Yuba Gap	ybg	ybg	 CA 19
-- Lodge Inn at Mormon Im. Trail	loi	loi	CA 18
-- Total: 118
 
-Idas:
-- Cotton Wood Divide	cwd	cwd	 WA 25
-- White Mt. Fire Overlook	whf	whf	 WA 24
-- Bunsen Peak	bnp	bnp	 WY 19
-- Garnet Peak	gnp	gnp	 MT 16
-- Hayden Valley	hnv	hnv	 WY 20
-- Strawberry Mt.s	stb	stb	 OR 17
-- Total: 121
 
-Ricei:
-- Chinook Pass	chp	chp	 WA 24
-- Big Lake	big	big	 OR 18
-- Rainy Pass	rap	rap	 WA 20
-- Shovel Creek	shc	shc	 CA 18
-- Soda Mt.	smr	smr	 OR 18
-- Cave Lake	cav	cav	 CA 24
-- Marble Mts.	mbm	mbm	 CA 12
-- Total: 134
-
-Jackson Hybrids:
-- Big Ice Cave	bic	bic	 WY 18
-- Hunt Mt.	hum	hum	 WY 27
-- Periodic Spring	psp	psp	 WY 19
-- Pinnacles Butte	pin	pin	 WY 19
-- Sheffield Creek	sfc	sfc	 WY 24
-- Riddle Lake	rdl	rdl	 WY 23
-- Total: 130
-
-Whites/Sierra Hybrids:
-- Carson Pass	csp	csp	 CA 25
-- Lake Emma	lae	lae	 CA 26
-- Sweetwater Mtns.	swm	swm	 CA 21
-- Tioga Crest	tic	tic	 CA 32
-- County Line Hill	clh	clh	 CA 25
-- Total: 129
-
-Warners Hybrids:
-- Buck Mt.	bkm	bkm	 CA 35
-- Eagle Peak	egp	egp	 CA 35
-- Steens Mountain	stm	stm	 OR 9
-- Total: 79
-
-Melissa Rockies:
-- Albion Meadow	abm	abm	 UT 42
-- Lander	lan	lan	 WY 23
-- Yellow Pine CG	ywp	ywp	 WY 16
-- Total:
-
-Melissa East:
-- Mill Creek	mil	mil	 NV 24
-- Abel Creek	abc	abc	 NV 17
-- Brandon	bsd	bsd	 SD 18
-- De Beque	dbq	dbq	 CO 16
-- Deeth-Charleston	dcr	dcr	 NV 16
-- Lamoille Canyon	lca	lca	 NV 19
-- Victor	vic	vic	 ID 20
-- Total: 130
-
-Melissa West: 
 - Gardnerville	gvl	gvl	 NV 16
 - Sierravalley	sv	sv	 CA 16
-- Red Earth Way	rew	rew	 NV 16
+- 
 - Silver Lake	sla	sla	 NV 18
 
 Idas Alaska:
