@@ -14,7 +14,7 @@ Working directory for the fastqs for this project on Texas State Anna computer: 
 | Karner Blue | Fort McCoy | WI |	fmc	|	23 |
 | Karner Blue | Indiana Dunes |	IN | inw | 20 |
 | Karner Blue | Saratoga Springs | NY |	ssn	| 19 |
-| Total | | | | 127 |
+| Total | | | | 126 |
 | Anna | Marlette Lake | NV | mar	| 19 |
 | Anna | Castle Peak | CA | cpe | 13 |
 | Anna | Donner Pass | CA | dop | 14 |
@@ -76,20 +76,18 @@ Working directory for the fastqs for this project on Texas State Anna computer: 
 | Melissa West | Girl Farm | NV |	gfm | 23 |
 | Melissa West | Verdi Crystal Peak Park | NV | vcp | 30 |
 | Melissa West | Bishop | CA | bhp | 13 | 
-
-
-
-- Gardnerville	gvl	gvl	 NV 16
-- Sierravalley	sv	sv	 CA 16
-- 
-- Silver Lake	sla	sla	 NV 18
-
-Idas Alaska:
-- Nolan Road	nol	nol	AK 8
-- Spruce Road and Barley Way	sbw	sbw	AK 20
-- Tok	tok	tok	AK 14
-- Tolovana Creek	tol	tol	AK 8
-- Total: 50
+| Melissa West | Silver Lake | NV |	sla | 18 |
+| Melissa West | Trout Pond Trailhead | CA | tpt | 12 |
+| Total | | | | 130 |
+| Idas Alaska | Nolan Road | AK | nol	| 8 |
+| Idas Alaska | Spruce Road and Barley Way | AK | sbw | 20 |
+| Idas Alaska | Tok | AK | tok | 14 |
+| Idas Alaska | Tolovana Creek | AK | tol | 8 |
+| Total | | | | 50 |
+| Nabokovi | Railroad | MN | rrm	| 23 |
+| Nabokovi | Sawbill | MN | sbm	| 10 |
+| Total | | | | 33 |
+| **Total** | | | | **1,332** |
 
 
 
