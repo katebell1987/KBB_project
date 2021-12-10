@@ -6,10 +6,10 @@ Working directory for the fastqs for this project on Texas State Anna computer: 
 
 | Group | Location | State | Code | Number |
 |---|---|---|---|---|
-| Karner Blue | Allegan | ale | MI | 14 |
-| Karner Blue | Allegan | all | MI | 13 | 
-| Karner Blue | Black River State Forest | brw | WI | 16 |
-| Karner Blue | Eau Claire State Forest | ecw	| WI | 5 |
+| Karner Blue | Allegan | MI | ale | 14 |
+| Karner Blue | Allegan | MI | all | 13 | 
+| Karner Blue | Black River State Forest | WI | brw | 16 |
+| Karner Blue | Eau Claire State Forest | WI | ecw	| 5 |
 | Karner Blue | Fish Lake |	WI | flw | 16 |
 | Karner Blue | Fort McCoy | WI |	fmc	|	23 |
 | Karner Blue | Indiana Dunes |	IN | inw | 20 |
