@@ -1,7 +1,7 @@
 # KBB_project
 Notes and scripts for the Karner blue project. 
 
-### Selection of populations to be included in the project
+## Selection of populations to be included in the project
 Working directory for the fastqs for this project on Texas State Anna computer: /Volumes/storage_a1/Parsed_reads_storage/all_the_fastqs
 
 | Group | Location | State | Code | Number |
@@ -90,13 +90,20 @@ Working directory for the fastqs for this project on Texas State Anna computer: 
 | **Total** | | | | **1,332** |
 
 
+## DNA sequence filtering, alignment, and variant calling
 
-
-
-
-
-
-
+- DNA sequences for this project include several individuals from past projects, and some new sequences that are as of yet unpublished
+- CCN filtered for PhiX, split into individual fastqs and demultiplexed using custom perl scripts
+- Reads were aligned to the *L. melissa* pacbio genome using `bwa` version 0.7.17-r1188 with `bwa mem`
+``` 
+bwa mem /Volumes/data_a1/melissaGenomes/pacbio_dovetail_reference/autosomes_unassigned_Lmel_dovetailPacBio_genome.fasta ID.fastq > KBB_alnID.sam
+```
+- Compress, sort, and index using `samtools` version 1.9 (using htslib 1.9)
+```
+samtools view -b -S -o KBB_alnID.bam KBB_alnID.sam
+samtools sort KBB_alnID.bam -o KBB_alnID.sorted.bam
+samtools index KBB_alnID.sorted.bam
+```
 
 
 
