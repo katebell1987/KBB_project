@@ -104,6 +104,11 @@ samtools view -b -S -o KBB_alnID.bam KBB_alnID.sam
 samtools sort KBB_alnID.bam -o KBB_alnID.sorted.bam
 samtools index KBB_alnID.sorted.bam
 ```
+- Call variants using `bcftools` version 
+```
+bcftools mpileup -d 8000 -o KBB_autosomes.bcf -O b -I -f /Volumes/data_a1/melissaGenomes/pacbio_dovetail_reference/autosomes_unassigned_Lmel_dovetailPacBio_genome.fasta KBB_aln*sorted.bam
+```
+
 
 
 
