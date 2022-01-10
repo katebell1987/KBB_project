@@ -95,6 +95,7 @@ Working directory for the fastqs for this project on Texas State Anna computer: 
 - DNA sequences for this project include several individuals from past projects, and some new sequences that are as of yet unpublished
 - CCN filtered for PhiX, split into individual fastqs and demultiplexed using custom perl scripts
 - Reads were aligned to the *L. melissa* pacbio genome using `bwa` version 0.7.17-r1188 with `bwa mem`
+- Split the genome into autosomal chromosomes and the z chromosome, to allow us to carry out separate analyses for the z
 ``` 
 bwa mem /Volumes/data_a1/melissaGenomes/pacbio_dovetail_reference/autosomes_unassigned_Lmel_dovetailPacBio_genome.fasta ID.fastq > KBB_alnID.sam
 ```
@@ -104,12 +105,29 @@ samtools view -b -S -o KBB_alnID.bam KBB_alnID.sam
 samtools sort KBB_alnID.bam -o KBB_alnID.sorted.bam
 samtools index KBB_alnID.sorted.bam
 ```
+- Moved bam files to /Volumes/data_a2/KBB_Dec2021/variant_calling/bamfiles_keep/ on Texas State Anna computer
 - Call variants using `bcftools` version 1.9 (using htslib 1.9)
 ```
 bcftools mpileup -d 8000 -o KBB_autosomes.bcf -O b -I -f /Volumes/data_a1/melissaGenomes/pacbio_dovetail_reference/autosomes_unassigned_Lmel_dovetailPacBio_genome.fasta KBB_aln*sorted.bam
 bcftools call -c -V indels -v -p 0.05 -P 0.001 -o KBB_autosomes_variants.vcf KBB_autosomes.bcf 
 ```
+- This resulted in 23,236 variable loci (SNPs)
+- Used custom perl script written by CCN to filter variants
+- Remove SNPs where more than 134 individuals are missing data
+- Remove SNPs where mean sequence depth is more than 2 SD the mean for all sequences
+- Remove SNPs within 2 base pairs of each other - will likely change this after doing a few preliminary entropy runs
 
+| VCF flag | Values | Explanation |  
+|---|---|---|
+| DP | &lt; 2664 | removed sequences with sequence depth less than 2,664 - 2 x number of individuals (1,332)|
+| AF | 1 | removed sequences where allele frequency of the alternate allele was 1 |
+| BQB | 3 |  maximum absolute value of the base quality rank sum test; BaseQRankSum BQB as z-score normal approximation |
+| MQB | 2.5 | maximum absolute value of the mapping quality rank sum test | 
+| RPB | 2 | maximum absolute value of the read position rank sum test |
+| AF | &lt; 0.05 and &gt; 0.95 | remove sequences with minor allele frequencies that meet these conditions |
+| MQ | 30 | minimum mapping quality |
+
+- Started entropy runs for scaffolds 11, 1628, 1646
 
 
 
