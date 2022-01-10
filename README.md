@@ -127,7 +127,7 @@ bcftools call -c -V indels -v -p 0.05 -P 0.001 -o KBB_autosomes_variants.vcf KBB
 | AF | &lt; 0.05 and &gt; 0.95 | remove sequences with minor allele frequencies that meet these conditions |
 | MQ | 30 | minimum mapping quality |
 
-- Started entropy runs for scaffolds 11, 1628, 1646
+- Started `entropy` version 1 runs for scaffolds 11, 1628, 1646. Running for 100k steps, thin 10, burnin 5k. Running on Texas State leap cluster
 
 
 
