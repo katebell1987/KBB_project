@@ -115,7 +115,7 @@ bcftools call -c -V indels -v -p 0.05 -P 0.001 -o KBB_autosomes_variants.vcf KBB
 - Used custom perl script written by CCN to filter variants
 - Remove SNPs where more than 134 individuals are missing data
 - Remove SNPs where mean sequence depth is more than 2 SD the mean for all sequences
-- Remove SNPs within 2 base pairs of each other - will likely change this after doing a few preliminary entropy runs
+- Remove SNPs within 5 base pairs of each other
 
 | VCF flag | Values | Explanation |  
 |---|---|---|
