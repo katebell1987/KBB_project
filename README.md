@@ -128,7 +128,7 @@ bcftools call -c -V indels -v -p 0.05 -P 0.001 -o KBB_autosomes_variants.vcf KBB
 | MQ | 30 | minimum mapping quality |
 
 - Started `entropy` version 1 runs for scaffolds 11, 1628, 1646. Running for 100k steps, thin 10, burnin 5k. Running on Texas State leap cluster
-- 5 individuals have very low coverage (median of 0), so will remove them and re-do alignment as above. all_003, all_005, all_010, sla_5012, vcp_051.
+- 6 individuals have very low coverage (median of 0), so will remove them and re-do alignment as above. all_003, all_005, all_010, all_015, sla_5012, vcp_051.
 
 
 
